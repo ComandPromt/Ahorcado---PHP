@@ -1,0 +1,27 @@
+<br/>
+		<form id="escala" action="<?=$_SERVER['PHP_SELF']?>" method="post" name="fcontacto">
+			<div style="margin:auto;text-align:center;">
+			<img style="height:80px;width:140px;" src="bd.png"/>
+				<p style="font-size:20px;">
+				<img class="imagen" src="ip.png"/><input class="texto" name="ip" style="text-align:center;" type="text" placeholder="IP" value="localhost"></input><br/><br/>
+				<img class="imagen" src="user.jpg"/><input class="texto" name="userbd" style="text-align:center;" type="text" placeholder="User BD" value="root"></input><br/><br/>
+				<img class="imagen" src="key.png"/>
+					<input class="texto" type="radio" name="Conocido" value="No" id="Conocido_0" onclick="mostrarReferencia();" checked><span style="font-size:50px;">No</span></input>
+					<input class="texto" type="radio" name="Conocido" value="Si" id="Conocido_1" onclick="mostrarReferencia();" ><span style="font-size:50px;">Si</span></input>
+					<div id="desdeotro" style="display:none;">
+						<input class="texto" name="passbd" style="text-align:center;" type="password" placeholder="Pass BD"></input>
+					</div>
+				</p>
+				<br/><br/><hr/><br/><br/>
+				<img class="imagen" src="admin.png"/>
+				<p style="font-size:20px;">
+					<input class="texto" name="adminuser" type="text" placeholder="Admin User" ></input><br/><br/>
+					<input class="texto" name="passuser" type="password" placeholder="Pass Admin User"></input>
+				</p><br/><br/>
+				<p>
+					<input class="texto" type="submit" name="enviar"/>
+				</p><br/><br/>
+			</div>
+		</form>
+	</body>
+</html>

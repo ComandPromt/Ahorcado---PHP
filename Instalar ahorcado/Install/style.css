@@ -1,0 +1,22 @@
+
+#escala{
+    transform: scale(1.3,1);
+}
+
+.texto{
+height:60px;width:340px;font-size:40px;text-align:center;
+}
+
+.imagen{
+    height:85px;
+    width:85px;
+}
+
+.mensaje{
+    text-align:center;
+    font-size:45px;
+}
+
+.error{
+    color:red;
+}

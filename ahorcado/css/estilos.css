@@ -1,0 +1,147 @@
+
+ hr {
+	 border: 0; height: 0; border-top: 4px double black; text-align:center;
+	 }
+hr:after {position: relative; top: -22px; content:"\25cf\25cf\25cf"; font-size: 34px;line-height: 34px; color: black;}
+
+.titulo{
+    font-family:"Aero";
+    font-weight:bold;
+	color:blue;
+	font-size:30px;
+}
+
+.nota{
+	font-weight:bold;
+	color:green;
+}
+
+.ayuda{
+    font-weight: bold;
+    color:#0a0a47;   
+	font-size:30px;
+}
+#sin_scroll{
+	 overflow-x: hidden;
+}
+
+#actual{
+	background-color:white;
+}
+
+
+.enviar{
+	font-size:25px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:white;
+    background:#638cb5;
+    border:0px;
+    width:100px;
+    height:40px;
+}
+
+.derecha{
+	float:right;
+}
+
+.izquierda{
+	float:left;
+}
+
+table {
+   width: 100%;
+   text-align: left;
+   border-collapse: collapse;
+   caption-side: top;
+   margin: auto;
+}
+
+caption, td, th {
+   padding: 0.3em;
+}
+
+th, td {
+   width: 25%;
+}
+
+caption {
+   font-weight: bold;
+   font-style: italic;
+}
+
+img{
+	display:block;
+	margin:auto;
+}
+
+#dialogoverlay{
+    display: none;
+    opacity: .8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #FFF;
+    width: 100%;
+    z-index: 10;
+}
+
+#dialogbox{
+    display: none;
+    position: fixed;
+    background: #000;
+    border-radius:7px; 
+    width:550px;
+    z-index: 10;
+}
+
+#dialogbox > div{
+	background:#FFF; margin:8px;
+}
+
+#dialogbox > div > #dialogboxhead{
+	background: #666; 
+	font-size:19px;
+	padding:10px;
+	color:#CCC;
+}
+
+#dialogbox > div > #dialogboxbody{
+	background:#333;
+	padding:20px;
+	color:#FFF;
+}
+
+#dialogbox > div > #dialogboxfoot{
+	background: #666; 
+	padding:10px; 
+	text-align:right;
+}
+
+.colorinput{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+	-o-appearance: none;
+    height: 30px;
+    width: 200px;
+    background: #CCC;
+    color: orangered;
+}
+
+.centrar{
+	text-align:center;
+}
+
+.imagesize{
+	height:50px;
+	width:50px;
+}
+
+#imagen_total{
+	height:25%;
+	width:100%;
+}
+
+#zoom{
+	zoom:170%;
+}

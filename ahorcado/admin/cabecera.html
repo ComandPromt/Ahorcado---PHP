@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+	<meta charset="UTF-8">
+	<title>Administrator</title>
+ 		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body style="margin-left:">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<div style="margin-bottom:100px;">
+		<nav id="nav">
+			<a href="#nav" title="Show navigation">Show navigation</a>
+			<a href="#" title="Hide navigation">Hide navigation</a>
+			<ul class="clearfix">
+				<li>
+					<a href="../index.php">Juego</a>
+				</li>
+				<li>
+					<a>
+						Consultas
+					</a>
+					<ul>
+						<li><a href="palabra_mas_jugada.php">Palabra m&aacute;s jugada</a></li>
+						<li><a href="palabra_acertada.php">Palabra m&aacute;s acertada</a></li>
+						<li><a href="palabra_por_size.php">Palabras por tama&ntilde;o</a></li>
+						<li><a href="palabras_jugadas.php">Palabras jugadas</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="admin_palabras.php">palabras</a>
+				</li>
+				<li>
+					<a href="admin_usuarios.php">usuarios</a>
+				</li>
+			</ul>
+		</nav>
+		</div>
+		<script src="js/main.js"></script>
+		<script src="js/doubletaptogo.js"></script> 
+		<script>
+			$( function()
+			{
+				$( '#nav li:has(ul)' ).doubleTapToGo();
+			});
+		</script>
