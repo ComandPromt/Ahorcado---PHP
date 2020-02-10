@@ -6,7 +6,7 @@ if(isset($_POST['enviar']) && $_POST['lang']!=null){
 // Se insertaran con espacios ej: atún --> atun
 include("funciones.php");
 //$mysqli = new mysqli('localhost', 'root', 'root', 'ahorcado');
-$mysqli = new mysqli('192.168.1.100', 'root', 'ratonatqm71114', 'ahorcado');
+$mysqli = new mysqli('192.168.1.100', 'root', 'root71114', 'ahorcado');
 $lineas = file('palabras.txt');
 $palabras = array();
 $tilde = array();
